@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    padding-top: 60px; 
+}
+
+
+nav {
+    background : #333;
+}
+
+nav a {
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+section {
+    padding: 100px 20px;
+    margin-top: 60px;
+}
+
+
+h2 {
+    border-bottom: 2px solid #ccc;
+}
+
+
+
+h1{
+    color : gray;
+}
+
+h2{
+    color : red
+}
+
+
+footer{
+    color : rgba(0, 255, 255, 0.4)
+}
+
+
