@@ -1,13 +1,40 @@
 .pClass{
     color: orange;
 }
-.liClass{
-    color: green;
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('./session2-background.jpg');
+    background-size: cover;
+    background-repeat: r;
+    background-position: center;
+    background-attachment: fixed;
+    
 }
 
-h2 {
-    background-color: yellow;
-    line-height: 1;
-    padding: 0;
-    margin: 0;
+.index-list li{margin-bottom: 15px;}
+.indexClass{
+    padding: 3 3;
+    background-color:rgb(66, 17, 211);
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.spanClass {
+    padding: 5px 5px;
+    background-color: rgb(108, 240, 105);
+    color: white;
+    text-align: center;
   }
+
+.contactClass{
+    padding: 5px 5px;
+    background-color:#2890a7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+
+}
