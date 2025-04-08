@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>User Registration Form</title>
+</head>
+<body>
+    <!-- <h2>User Registration Form</h2>
+    <form action="submit" method="post">
+        사용자 이름: <input type="text" name="username"><br>
+        이메일 주소: <input type="email" name="email"><br>
+        비밀번호 : <input type="password" name="pw"><br>
+        성별: <input type="radio" name="gender" value="male"> 남성
+                <input type="radio" name="gender" value="female"> 여성
+        <br>
+        관심 있는 주제: <input type="checkbox" name="topics" value="DB">DB
+                        <input type="checkbox" name="topics" value="python">python
+                        <input type="checkbox" name="topics" value="C">C/C++
+                    <input type="checkbox" name="topics" value="js">js
+        <br>
+        국가:
+        <select name="country">
+            <option value="korea">대한민국</option>
+            <option value="usa">미국</option>
+            <option value="china">중국</option>
+            <option value="japan">일본</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="가입하기">
+    </form> -->
+
+
+    <!-- required란 폼 데이터가 서버에 제출되기 전에
+    반드시 채워져있어야 하는 입력 필드를 지정하는 문구 -->
+    <!-- label태그를 응용 -->
+    <h2>User Registration Form</h2>
+    <form action="submit" method="post">
+        <label for="username">사용자 이름: </label>
+            <input type="text" id="username" name="username" required>
+        <br>
+        <label for="email">이메일 주소: </label>
+            <input type="email" id="email" name="useremail" required>
+        <br>
+        <label for="password">비밀번호: </label>
+            <input type="password" id="password" name="pw" required>
+        <br>
+
+        <label>성별: </label>
+            <label for="male"><input type="radio" id="male" name="gender" value="male">남성</label>
+            <label for="female"><input type="radio" id="female1" name="gender" value="female">여성</label>
+        <br>
+
+        <label>배우고 있는 언어: </label>
+            <label for="topic1"><input type="checkbox" id="topic1" name="topics" value="db">DB</label>
+            <label for="topic2"><input type="checkbox" id="topic2" name="topics" value="python">Python</label>
+            <label for="topic3"><input type="checkbox" id="topic3" name="topics" value="C">C/C++</label>
+            <label for="topic4"><input type="checkbox" id="topic4" name="topics" value="js">js</label>
+        <br>
+
+        <label for="country">국가: </label>
+            <select id="country" name="country">
+                <option value="korea">대한민국</option>
+                <option value="usa">미국</option>
+                <option value="china">중국</option>
+                <option value="japan">일본</option>
+            </select>
+        <br><br>
+
+        <input type="submit" value="가입하기">
+    </form>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.imgClass{
+    border-style: solid;
+    border-color: red;
+    border-image-width: 3px 3px;
+}
+.spanAudioclass{
+    color: violet;
+    background-color: aqua;
+}
