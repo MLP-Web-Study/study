@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User registration form</title>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <form action="/" method="post">
+        <label for="username">사용자 이름:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        
+        <label for="eamil">이메일 주소:</label>
+        <input type="text" id="email" name="email address" required>
+        
+        <br>
+        <label for="passward">비밀번호:</label>
+        <input type="text" id="passward" name="passward" required>
+        <br>
+        
+        <label>성별:</label>
+        <label for="male">남성 </label>
+            <input type="radio" id="male" name="gender" value="male">
+        
+        <label for="female">여성 </label>
+            <input type="radio" id="female" name="gender" value="female">
+        <br>
+        
+        <label>관심 있는 주제:</label>
+        <label for="topic">게임 </label>
+        <input type="checkbox" id="topic1" name="topics[]" value="technology">
+        
+        <label for="topic">책</label>
+        <input type="checkbox" id="topicl" name="topics[]" value="technology"> 
+        
+        <label for="topic">노래</label>
+        <input type="checkbox" id="topicl" name="topics[]" value="technology">
+        <br>
+
+        <label>국가:</label>
+        <select name="country">
+            <option value="usa">미국</option>
+            <option value="canada">캐나다</option>
+            <option value="uk">영국</option>
+            <option value="russia">러시아</option>
+            <option value="japan">일본</option>
+        </select>
+        <br>
+        <br>
+        <button type="subit">로그인하기</button>
+    </form>
+</body>
+</html>
