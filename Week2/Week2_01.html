@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 페이지</title>
+</head>
+<body>
+    <h2>회원가입</h2>
+
+    <form action="/." method="post">
+        <label for="username">사용자 ID:</label>
+        <input type="text" id="username" name="ID" placeholder="사용자명">
+        <br>
+
+        <label for="password">비밀번호:</label>
+        <input type="passsword" id="password" name="password" placeholder="비밀번호 입력">
+        <br>
+
+        <label for="agree">개인정보 수집 동의:</label>
+        <input type="radio" id="agree" name="agree" value="no">거부
+        <input type="radio" id="agree" name="agree" value="yes">동의
+        <br>
+
+        <label for="push">
+            <input type="button" id="push "value="제출">
+        </label>
+
+        <label for="reset">
+            <input type="reset" id="reset" value="입력 초기화">
+        </label>
+    </form>
+</body>
+</html>
