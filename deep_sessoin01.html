@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user info</title>
+</head>
+<body>
+    <h2>user info</h2>
+    <form action="#" method="post">
+        <fieldset>
+            <legend style="color: gray;"><strong>개인정보</strong></legend>
+            <label for="name">사용자 이름:</label>
+            <input type="text" id="name" name="name" placeholder="사용자 이름" required>
+            <br>
+            <label for="email">이메일 주소:</label>
+            <input type="email" id="email" name="email" placeholder="example@example.ex" required>
+            <br>
+            <label for="pw">비밀번호:</label>
+            <input type="password" id="pw" name="pw" placeholder="비밀번호는 최소 8자 이상이어야 합니다." required>
+            
+            <br>
+            <label>성별:</label>
+            <label for="man"><input type="radio" id="man" name="gender" value="man"> 남성</label>
+            <label for="woman"><input type="radio" id="woman" name="gender" value="woman"> 여성</label>
+            <br>
+            <label for="country">국가:</label>
+            <select id="country" name="country">
+                <option value="kr">대한민국</option>
+                <option value="us">미국</option>
+                <option value="jp">일본</option>
+                <option value="etc">기타</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend></legend>
+            <label>관심 있는 주제:</label>
+            <label for="topic1"><input type="checkbox" id="topic1" name="topics[]" value="game"> 게임</label>
+            <label for="topic2"><input type="checkbox" id="topic2" name="topics[]" value="webtoon"> 웹툰</label>
+            <label for="topic3"><input type="checkbox" id="topic3" name="topics[]" value="sports"> 스포츠</label>
+            <label for="topic4"></label><input type="checkbox" id="topic4" name="topics[]" value="etc">기타<input type="text" id="topic4text" name="topics[]" placeholder="기타를 선택했을시에만 입력하세요"> 
+            <!--기타 작성을 해보고 싶었지만 이건 아닌거 같은-->
+            <br>
+        </fieldset>
+        <br>
+        <button type="submit">가입하기</button>
+    </form>
+</body>
+</html>
