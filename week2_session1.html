@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+<body>
+
+    <h1>User Registration Form</h1>
+
+    <form action="/" method="post">
+        <label for="username">사용자 이름:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+
+        <label for="email">이메일 주소:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label for="password">비밀번호:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+
+        <label>성별:</label>
+	        <label for="male"><input type="radio" id="male" name="gender" value="male"> 남성</label>
+        <label for="female"><input type="radio" id="female" name="gender" value="female"> 여성</label>
+        <br>
+
+        <label>관심 있는 주제:</label>
+        <label for="topic1"><input type="checkbox" id="topic1" name="topics[]" value="technology"> 기술</label>
+        <label for="topic2"><input type="checkbox" id="topic2" name="topics[]" value="fashion"> 패션</label>
+        <label for="topic3"><input type="checkbox" id="topic3" name="topics[]" value="sports"> 스포츠</label>
+        <br>
+
+        <label for="country">국가:</label>
+        <select id="country" name="country">
+            <option value="kr">대한민국</option>
+            <option value="us">미국</option>
+            <option value="jp">일본</option>
+        </select>
+        <br><br>
+
+        <button type="submit">가입하기</button>
+    </form>
+
+</body>
+</html>
