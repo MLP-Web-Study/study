@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+<body>
+    <h1>User Registration Form</h1>
+    <form action="/" method="post">
+        사용자 이름: <input type="text" name="username"><br>
+        이메일 주소: <input type="email" name="useremail"><br>
+        비밀번호: <input type="password" name="userpassword"><br>
+        성별:
+        <input type="radio" name="gender" value="male">남성
+        <input type="radio" name="gender" value="female">여성<br>
+        관심 있는 주제:
+        <input type="checkbox" name="topic" value="technology">기술
+        <input type="checkbox" name="topic" value="fashion">패션
+        <input type="checkbox" name="topic" value="stports">스포츠
+        <br>
+        국가: 
+        <select name="country">
+            <option value="korea">대한민국</option>
+            <option value="usa">미국</option>
+            <option value="uk">영국</option>
+        </select>
+        <br>
+        <br>
+
+        <input type="submit" value="가입하기">
+
+    </form>
+    
+</body>
+</html>
