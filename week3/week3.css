@@ -1,0 +1,47 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+}
+.col{
+    border: 1.5px solid red;
+    flex-direction: column;
+    display: flex;
+}
+.w10{
+    align-items: center;
+    width: 10%;
+}
+.w20{
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.w70{
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.icon{
+    border: dotted orange;
+    justify-content: center;
+    height: 8%;
+    width: 60%;
+    margin: 10px;
+}
+.row{
+    border: dotted blue;
+    margin: 5%;
+}
+.h20{
+    height: 17%;
+    width: 90%;
+}
+.h40{
+    height: 35%;
+    width: 90%;
+}
+.h80{
+    height: 65%;
+    width: 90%;
+}
