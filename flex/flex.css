@@ -1,0 +1,46 @@
+#body {
+    margin: 0;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    height: 100%;
+    border: 2px solid red;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 10%;
+    align-items: center;
+}
+
+.icon{
+    border: 1px solid red;
+}
+.middle {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 30%;
+}
+.area{
+    border: 1px solid red;
+    flex: 3 auto;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 60%;
+}
+.area2 {
+    border: 1px solid red;
+    flex: 1 auto;
+}
+.area3 {
+    border: 1px solid red;
+    flex: 6 auto;
+}
