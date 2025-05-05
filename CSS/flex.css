@@ -1,0 +1,34 @@
+body {
+    border:red;
+    display: flex;
+}
+
+.icon1 {
+    border : yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex :auto
+}
+
+.icon2 {
+    border : yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon3 {
+    border: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.w10 {
+    width: 10%;
+}
+
