@@ -1,0 +1,12 @@
+/*css 스타일 시트*/
+p {
+  color: green;
+}
+
+.targetClass {
+  color: red;
+}
+
+#targetID {
+  color: orange;
+}

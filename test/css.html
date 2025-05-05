@@ -1,0 +1,28 @@
+<!--html 문서-->
+<head>
+  <!-- 내부 스타일 시트 -->
+  <style>
+    h1,
+    p {
+      color: blue;
+    }
+  </style>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <h1>css test</h1>
+  <p style="color: pink">인라인 스타일</p>
+  <p id="targetID">ID 선택자</p>
+  <p class="targetClass">Class 선택자</p>
+  <p>Type 선택자</p>
+  <br />
+  <br />
+  <h1>css 우선순위 test</h1>
+  <h3>!important > 인라인 스타일 > ID 선택자 > Class 선택자 > Type 선택자</h3>
+  <p style="color: pink" , id="targetID">인라인 vs ID => 인라인 승!</p>
+  <p style="color: pink" , class="targetClass">인라인 vs Class => 인라인 승!</p>
+  <p id="targetID" , class="targetClass">ID vs Class => ID 승!</p>
+  <br />
+  <br />
+</body>
