@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+
+.col {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+
+.w10 { width: 10%; }
+.w20 { width: 20%; }
+.w70 { width: 70%; }
+
+
+.icon1 {
+    border : 1px dashed purple;
+    padding: 10px;
+    text-align: center;
+}
+
+.icon2 {
+    border: 1px dashed purple;
+    padding: 10px;
+    text-align: center;
+}
+
+.icon3 {
+    border: 1px dashed purple;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.area1 {
+    border: 1px dotted purple;
+    padding: 10px;
+    flex: 1;
+}
+
+.area2 {
+    border: 1px dotted purple;
+    padding: 10px;
+    flex: 1;
+}
+
+.area3 {
+    border: 1px dotted purple;
+    padding: 10px;
+    flex: 1;
+}
+
+.area4 {    
+    border: 1px dotted purple;
+    padding: 10px;
+    flex: 1;
+}
+
+.area5 {
+    border: 1px dotted purple;
+    padding: 10px;
+    flex: 1;
+}
+
+.area4 {
+    flex: 3;
+}
