@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>레이아웃</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+    .container {
+      display: flex;
+      height: 100vh;
+      border: 2px solid red;
+    }
+    .sidebar {
+      width: 80px;
+      border-right: 2px solid red;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+    }
+    .icon {
+      border: 1px dashed orange;
+      padding: 10px;
+      margin: 5px 0;
+      text-align: center;
+    }
+    .left-panel {
+      width: 200px;
+      border-right: 2px solid red;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+    .left-panel div {
+      flex: 1;
+      border: 1px dotted blue;
+      margin-bottom: 10px;
+    }
+    .main-panel {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+    .area4 {
+      flex: 3;
+      border: 1px dotted blue;
+      margin-bottom: 10px;
+    }
+    .area5 {
+      flex: 1;
+      border: 1px dotted blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="icon">아이콘1</div>
+      <div class="icon">아이콘2</div>
+      <div class="icon">아이콘3</div>
+    </div>
+    <div class="left-panel">
+      <div>영역1</div>
+      <div>영역2</div>
+      <div>영역3</div>
+    </div>
+    <div class="main-panel">
+      <div class="area4">영역4</div>
+      <div class="area5">영역5</div>
+    </div>
+  </div>
+</body>
+</html>
