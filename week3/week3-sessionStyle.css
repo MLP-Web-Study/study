@@ -1,0 +1,71 @@
+.pClass{
+    color: orange;
+}
+
+#myCurriculum {
+    margin: 0;
+    background-image: url('./session-background.jpg');
+    background-size: cover;
+    background-repeat: r;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.index-list li{margin-bottom: 15px;}
+.indexClass{
+    padding: 3 3;
+    background-color:rgb(66, 17, 211);
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.spanClass {
+    padding: 5px 5px;
+    background-color: rgb(108, 240, 105);
+    color: white;
+    text-align: center;
+  }
+
+.contactClass{
+    padding: 5px 5px;
+    background-color:#2890a7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+
+
+
+
+.col{
+    margin-left : 5px;
+    margin-top : 15px;
+    border: 2px solid rgb(193, 42, 42);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.row {
+    margin: 10px;
+    border-style: solid;
+    border-color: greenyellow;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.w50{
+    width : 50%;
+}
+
+.w90{
+    width : 90%;
+}
