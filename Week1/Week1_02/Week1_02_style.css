@@ -2,49 +2,38 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: sans-serif;
-    line-height: 1.6;
+#container {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: beige;
+    height: 100vh;
 }
 
-header {
-    padding-top: 60px; 
+.item{
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;;
 }
 
-
-nav {
-    background : #333;
+.selfIntro {
+    background-color: #dcdcdc;
+    order: initial;    
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
 }
 
-nav a {
-    color: white;
-    margin-right: 1rem;
-    text-decoration: none;
+.language{
+    background-color: #dcdcdc;
+    width: 200px;
+    height: 200px;
+
+    margin: 10px;
+    padding: 10px;
 }
-
-section {
-    padding: 100px 20px;
-    margin-top: 60px;
-}
-
-
-h2 {
-    border-bottom: 2px solid #ccc;
-}
-
-
-
-h1{
-    color : gray;
-}
-
-h2{
-    color : red
-}
-
-
-footer{
-    color : rgba(0, 255, 255, 0.4)
-}
-
-
