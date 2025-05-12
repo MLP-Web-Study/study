@@ -1,0 +1,47 @@
+
+.w1{
+    border : 1px dashed black;
+    background-color: black;
+    margin-left: 50px;
+}
+
+.w2{
+    border : 1px dashed black;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: black;
+}
+
+.w3{
+    border : 1px dashed black;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: black;
+}
+
+.w1{width: 250px;}
+.w1{height: 100px;}
+.w2{width: 250px;}
+.w2{height: 100px;}
+.w3{width: 250px;}
+.w3{height: 100px;}
+
+.w4{
+    border : 1px dashed black;
+    margin-top: 50px;
+    margin-left: 1px;
+    background-color: black;
+}
+
+.w5{
+    border : 1px dashed black;
+    margin-top: 50px;
+    margin-left: 300px;
+    background-color: black;
+}
+
+
+.w4{width: 250px}
+.w4{height: 100px;}
+.w5{width: 250px}
+.w5{height: 100px;}
