@@ -3,19 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>레이아웃</title>
+  <!--어떻게 하는지 감이 잘 안와서 gpt 돌리고 전부 주석 달면서 공부해봤습니다-->
+  <!--숙제는 혼자 힘으로 하겠습니다다-->
   <style> 
     * {
       box-sizing: border-box;
     }
+    <!--모든 요소의 사이즈를 패딩과 보더를 포함한 실제 크기로 계산되게 함-->
     body {
       margin: 0;
       font-family: sans-serif;
     }
+    <!-- 브라우저의 기본 여백을 없앰. 마진이 밖, 폰트 적용. body에 넣어서 문서 전체에 기본값처럼 적용시킴. 모든 콘텐츠의 부모요소-->
     .container {
       display: flex;
       height: 100vh;
       border: 2px solid red;
     }
+    <!--전체 높이를 브라우저 높이 100%로 설정-->
+    <!-- color: red 이건 글자 색을 빨간색으로, border red 는 테두리색 지정-->
     .sidebar {
       width: 80px;
       border-right: 2px solid red;
@@ -24,12 +30,15 @@
       align-items: center;
       padding-top: 10px;
     }
+    <!--왜 컨테이너 밑에 사이드바가 있을까?-->
+    <!--컨테이너 - 사이드바 - 아이콘들의 계층화, 다른 패널들은 별도의 그룹핑이 필요가 없음. -->
     .icon {
       border: 1px dashed orange;
       padding: 10px;
       margin: 5px 0;
       text-align: center;
     }
+    <!--텍스트 가운데 정렬-->
     .left-panel {
       width: 200px;
       border-right: 2px solid red;
@@ -37,26 +46,32 @@
       flex-direction: column;
       padding: 10px;
     }
+    <!--세로 방향으로 내부 영역들 배치-->
     .left-panel div {
       flex: 1;
       border: 1px dotted blue;
       margin-bottom: 10px;
     }
+    <!--안에 있는 div를 같은 비율로 공간을 나눔, 파란색 점선 테두리 하기-->
+    <!-- 이건 자식 요소에 대한 설정임-->
     .main-panel {
       flex: 1;
       display: flex;
       flex-direction: column;
       padding: 10px;
     }
+    <!-- 나머지 공간 전체 차지-->
     .area4 {
       flex: 3;
       border: 1px dotted blue;
       margin-bottom: 10px;
     }
+    <!-- 위쪽 영역, 높이 3-->
     .area5 {
       flex: 1;
       border: 1px dotted blue;
     }
+    <!-- 아래쪽 영역, 높이 1-->
   </style>
 </head>
 <body>
