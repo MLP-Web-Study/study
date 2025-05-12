@@ -1,0 +1,40 @@
+.portfolio {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20%;
+    background-color: rgb(228, 228, 228);
+}
+
+.index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+}
+
+.section {
+    width: 150px;
+    padding: 100px;
+    border: 1.5px solid black;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(228, 228, 228);
+    margin-top: 20px;
+}
