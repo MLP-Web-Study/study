@@ -9,6 +9,7 @@ html {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
 
     background-color: beige;
     height: 100vh;
@@ -27,6 +28,7 @@ html {
     height: 500px;
     margin: 10px;
     padding: 10px;
+    flex: 6;
 }
 
 .language{
