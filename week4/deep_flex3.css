@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    align-items: center;
+}
+
+.mainbox {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+.intro {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.education {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+}
+.sub {
+    margin-left: 20px;
+}
+
+#lang li {
+    background-color: lightblue;
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+}
+
+.pofol_list {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+}
+
+.pofol_item {
+    background-color: lightgreen;
+    margin: 10px;
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
