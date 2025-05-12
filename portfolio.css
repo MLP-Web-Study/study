@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  background-color: #f4f4f4;
+  color: #000000;
+}
+
+header {
+  background-color: #55a19d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #4ba2a3;
+  border-bottom: 2px solid #b9b7b7;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #e5e4e4;
+}
