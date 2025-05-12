@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    background-color: aqua;
+    margin: 50px;
+    color: crimson;
+}
+.first{
+    width: 200px;
+    height: 150px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.second{
+    width: 300px;
+    height: 200px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.third{
+    width: 300px;
+    height: 250px;
+    padding-left: 40px;
+    padding-top: 50px;
+}
