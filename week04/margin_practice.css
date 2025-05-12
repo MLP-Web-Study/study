@@ -1,0 +1,45 @@
+div {
+    background-color: aqua;
+}
+
+#div1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80px;
+    width: 100px;
+
+}
+#div2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80px;
+    width: 100px;
+}
+#div3 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80px;
+    width: 100px;
+}
+#div4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+    margin-right: 20px;
+    height: 80px;
+    width: 100px;
+}
+#div5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 20px;
+    height: 80px;
+    width: 100px;
+}
