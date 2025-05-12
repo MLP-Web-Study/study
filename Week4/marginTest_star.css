@@ -1,0 +1,47 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+#top{
+    flex-direction: row;
+}
+
+#mid{
+    display: flex;
+    flex-direction: row;
+}
+
+#bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    background-color: darksalmon;
+    width: 200px;
+    height: 50px;
+}
+
+.item1{
+    margin-left: 170px;
+}
+
+.item2{
+    margin-left: 70px;
+}
+
+.item3{
+
+}
+
+.item4{
+    margin-left: 95px;
+    width: 150px;
+}
+
+.item5{
+    margin-left: 50px;
+    width: 150px;
+}
