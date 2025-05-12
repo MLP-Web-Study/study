@@ -1,0 +1,36 @@
+.w1{
+    border : 1px dashed darkcyan;
+    background-color: darkcyan;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.w1{width: 150px;}
+.w1{height: 100px;}
+
+.w2{
+    border : 1px dashed darkcyan;
+    background-color: darkcyan;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.w2{width: 200px;}
+.w2{height: 100px;}
+
+.w3{
+    border : 1px dashed darkcyan;
+    background-color: darkcyan;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.w3{width: 200px;}
+.w3{height: 150px;}
+
+.col1{color: darkblue;}
