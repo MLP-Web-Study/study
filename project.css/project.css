@@ -1,0 +1,119 @@
+.fild1{
+    display: flex;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.fild1{width: 450px;}
+.fild1{height: 200px;}
+
+.icon1{
+    border: 1px dashed red;
+    background-color: red;
+}
+
+.icon1{width: 80px;}
+.icon1{height: 100px;}
+
+.icon2{
+    border: 1px dashed orange;
+    background-color: orange;
+}
+
+.icon2{width: 80px;}
+.icon2{height: 120px;}
+
+.icon3{
+    border: 1px dashed yellow;
+    background-color: yellow;
+}
+
+.icon3{width: 80px;}
+.icon3{height: 140px;}
+
+.icon4{
+    border: 1px dashed green;
+    background-color: green;
+}
+
+.icon4{width: 80px;;}
+.icon4{height: 160px;}
+
+.icon5{
+    border: 1px dashed blue;
+    background-color: blue;
+}
+
+.icon5{width: 80px;;}
+.icon5{height: 140px;}
+
+.icon6{
+    border: 1px dashed purple;
+    background-color: purple;
+}
+
+.icon6{width: 80px;}
+.icon6{height: 120px;}
+
+.fild2{
+    display: flex;
+    border: 1px dashed aqua;
+    background-color: aqua;
+}
+
+.fild2{width: 450px;}
+.fild2{height: 200px;}
+
+.icon7{
+    border: 1px dashed red;
+    background-color: red;
+    margin-top: 99px;
+}
+
+.icon7{width: 80px;}
+.icon7{height: 100px;}
+
+.icon8{
+    border: 1px dashed orange;
+    background-color: orange;
+    margin-top: 80px;
+}
+
+.icon8{width: 80px;}
+.icon8{height: 120px;}
+
+.icon9{
+    border: 1px dashed yellow;
+    background-color: yellow;
+    margin-top: 60px;
+}
+
+.icon9{width: 80px;}
+.icon9{height: 140px;}
+
+.icon10{
+    border: 1px dashed green;
+    background-color: green;
+    margin-top: 20px;
+}
+
+.icon10{width: 80px;}
+.icon10{height: 180px;}
+
+.icon11{
+    border: 1px dashed blue;
+    background-color: blue;
+    margin-top: 60px;
+}
+
+.icon11{width: 80px;}
+.icon11{height: 140px;}
+
+.icon12{
+    border: 1px dashed purple;
+    background-color: purple;
+    margin-top: 80px;
+}
+
+.icon12{width: 80px;}
+.icon12{height: 120px;}
