@@ -1,0 +1,70 @@
+.one1{
+    border: 1px dashed black;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.one1{width: 500px;}
+.one1{height: 500px;}
+
+.one2{
+    border: 1px dashed purple;
+    background-color: purple;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.one2{width: 450px;}
+.one2{height: 450px;}
+
+.one3{
+    border: 1px dashed blue;
+    background-color: blue;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.one3{width: 400px;}
+.one3{height: 400px;}
+
+.one4{
+    border: 1px dashed green;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.one4{width: 350px;}
+.one4{height: 350px;}
+
+.one5{
+    border: 1px dashed yellow;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.one5{width: 300px;}
+.one5{height: 300px;}
+
+.one6{
+    border: 1px dashed orange;
+    background-color: orange;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.one6{width: 250px;}
+.one6{height: 250px;}
+
+.one7{
+    border: 1px dashed red;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.one7{width: 200px;}
+.one7{height: 200px;}

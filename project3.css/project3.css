@@ -1,0 +1,80 @@
+.box1{
+    border: 1px dashed orangered;
+    background-color: orangered;
+}
+.box1{width: 550px;}
+.box1{height: 100px;}
+
+.box2{
+    border: 1px blue;
+    background-color: blue;
+    margin-top: 50px;
+}
+.box2{width: 550px;}
+.box2{height: 50px;}
+
+.fild2{ 
+    display: flex;
+}
+
+.box3{
+    border: greenyellow;
+    background-color: greenyellow;
+    margin-top: 50px;
+}
+.box3{width: 200px;}
+.box3{height: 300px;}
+
+.box4{
+    border: 1px dashed aqua;
+    background-color: aqua;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.box4{width: 300px;}
+.box4{height: 300px;}
+
+.box4-1{
+    border: 1px dashed blue;
+    background-color: blue;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.box4-1{width: 250px;}
+.box4-1{height: 150px;}
+
+.box4-1-1{
+    border: 1px dashed orange;
+    background-color: orange;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.box4-1-1{width: 210px;}
+.box4-1-1{height: 40px;}
+
+.box4-1-2{
+    border: 1px dashed yellow;
+    background-color: yellow;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.box4-1-2{width: 210px;}
+.box4-1-2{height: 40px;}
+
+
+.box4-2{
+    border: 1px dashed darkblue;
+    background-color: darkblue;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.box4-2{width: 250px;}
+.box4-2{height: 50px;}
+
+.box5{
+    border: darkgreen;
+    background-color: darkgreen;
+    margin-top: 50px
+}
+.box5{width: 550px;}
+.box5{height: 100px;}
