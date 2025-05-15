@@ -2,10 +2,12 @@
     box-sizing: border-box;
 }
 #container{
+    display: flex;
     flex-direction: row;
 }
 section{
     display: flex;
+    flex-direction: column;
 }
 .box{
     width: 100px;
@@ -18,11 +20,11 @@ section{
     margin-top: 15px;
 }
 .second{
-    margin-bottom: 20px;
+    margin-top: 20px;
     margin-bottom: 15px;
 }
 .third{
-    margin-top: 10pxs;
+    margin-top: 10px;
 }
 .left{
     margin-left: 5px;
@@ -31,4 +33,9 @@ section{
 .right{
     margin-top: 0;
     margin-left: 100px;
+}
+.big{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
 }
