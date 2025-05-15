@@ -1,7 +1,12 @@
+*{
+    box-sizing: border-box;
+    /*box-sizing: border-box → width와 height에 padding과 border 포함됨 
+    → 너비·높이를 유지하면서 안쪽 여백만 생기는 효과를 얻을 수 있다고 gpt씨의 도움이*/
+}
 .quater{
-    width: 500px;
-    height: 500px;
-    padding: 15px;
+    width: 600px;
+    height: 650px;
+    padding: 20px;
 }
 .row{
     flex-direction: row;
@@ -51,16 +56,16 @@
     background-color: black;
 }
 .h30{
-    height: 30px;
+    height: 50px;
 }
 .h45{
-    height: 45px;
+    height: 70px;
 }
 .h60{
-    height: 60px;
+    height: 90px;
 }
 .h75{
-    height: 75px;
+    height: 110px;
 }
 /*3사분면*/
 .third{
@@ -71,13 +76,13 @@
 }
 .tall{
     width: 100%;
-    height: 65px;
+    height: 80px;
     background-color: coral;
     margin-bottom: 15px;
 }
 .short{
     width: 100%;
-    height: 35px;
+    height: 50px;
     background-color: cornflowerblue;
 }
 .two{
@@ -86,41 +91,39 @@
     margin-bottom: 15px;
 }
 .left{
-    background-color: aquamarine;
+    background-color: darkseagreen;
     width: 20%;
-    height: 290px;
+    height: 360px;
     margin-right: 15px;
 }
 .right{
-    background-color: cyan;
+    background-color: skyblue;
     width: 80%;
-    height: 290px;
-    box-sizing: border-box;
-    padding: 25px;
+    height: 360px;
+    padding: 30px;
 }
 .three{
     width: 100%;
-    height: 65px;
-    background-color: greenyellow;
+    height: 75px;
+    background-color: yellowgreen;
 }
 .inside1{
     background-color: cornflowerblue;
     width: 100%;
-    height: 165px;
-    box-sizing: border-box;
-    padding: 15px;
+    height: 230px;
+    padding: 20px;
 }
 .dyellow{
-    background-color: rgb(255, 187, 0);
+    background-color: goldenrod;
     width: 100%;
-    height: 45px;
-    margin-top: 25px;
+    height: 65px;
+    margin-top: 40px;
 }
 .byellow{
-    background-color: yellow;
+    background-color: gold;
     width: 100%;
-    height: 45px;
-    margin-top: 15px;
+    height: 65px;
+    margin-top: 20px;
 }
 .inside2{
     background-color: darkblue;
@@ -144,20 +147,20 @@
     border-radius: 50%;
 }
 .s1{
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
 }
 .s2{
-    width: 400px;
-    height: 400px;
+    width: 430px;
+    height: 430px;
 }
 .s3{
-    width: 350px;
-    height: 350px;
+    width: 360px;
+    height: 360px;
 }
 .s4{
-    width: 275px;
-    height: 275px;
+    width: 280px;
+    height: 280px;
 }
 .s5{
     width: 200px;
