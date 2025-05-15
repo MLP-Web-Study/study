@@ -1,0 +1,173 @@
+.quater{
+    width: 500px;
+    height: 500px;
+    padding: 15px;
+}
+.row{
+    flex-direction: row;
+    display: flex;
+}
+/*2사분면*/
+.first{
+    background-color: darkgray;
+}
+.back{
+    flex-direction: row;
+    display: flex;
+}
+.blackbox{
+    background-color: black;
+    width: 100%;
+    height: 50%;
+}
+.bluebox{
+    background-color: skyblue;
+    width: 100%;
+    height: 50%;
+    align-items: flex-end;
+}
+.box {
+    flex: 1;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.darkblue{
+    background-color: darkblue;
+}
+.black{
+    background-color: black;
+}
+.h30{
+    height: 30px;
+}
+.h45{
+    height: 45px;
+}
+.h60{
+    height: 60px;
+}
+.h75{
+    height: 75px;
+}
+/*3사분면*/
+.third{
+    background-color: lightgrey;
+}
+.one{
+    margin-bottom: 15px;
+}
+.tall{
+    width: 100%;
+    height: 65px;
+    background-color: coral;
+    margin-bottom: 15px;
+}
+.short{
+    width: 100%;
+    height: 35px;
+    background-color: cornflowerblue;
+}
+.two{
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 15px;
+}
+.left{
+    background-color: aquamarine;
+    width: 20%;
+    height: 290px;
+    margin-right: 15px;
+}
+.right{
+    background-color: cyan;
+    width: 80%;
+    height: 290px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+.three{
+    width: 100%;
+    height: 65px;
+    background-color: greenyellow;
+}
+.inside1{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 165px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.dyellow{
+    background-color: rgb(255, 187, 0);
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+}
+.byellow{
+    background-color: yellow;
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+}
+.inside2{
+    background-color: darkblue;
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+}
+/*1사분면, 4사분면*/
+.second{
+    background-color: lightgray;
+}
+.fourth{
+    background-color: darkgray;
+}
+.second, .fourth, .last{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.round{
+    border-radius: 50%;
+}
+.s1{
+    width: 450px;
+    height: 450px;
+}
+.s2{
+    width: 400px;
+    height: 400px;
+}
+.s3{
+    width: 350px;
+    height: 350px;
+}
+.s4{
+    width: 275px;
+    height: 275px;
+}
+.s5{
+    width: 200px;
+    height: 200px;
+}
+.s6{
+    width: 130px;
+    height: 130px;
+}
+.s7{
+    width: 80px;
+    height: 80px;
+}
