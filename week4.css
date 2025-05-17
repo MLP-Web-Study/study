@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.back{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw; /*px 대신 vw -> 화면 크기 기준으로 하려고*/
+  height: 100vh;
+}
+
+.box{
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;  /*수직 방향 정렬, 자식 요소들을 세로 방향 중앙*/
+  justify-content: center; /*수평 방향 정렬, 자식 요소들을 가로 방향 중앙*/
+}
+
+.box13 {background-color: lightgray;}
+.red {border-radius: 50%; width: 40px;  height: 40px; background-color: red;}
+.orange {border-radius: 50%; width: 80px;  height: 80px; background-color: orange;}
+.yellow {border-radius: 50%; width: 120px; height: 120px; background-color: yellow;}
+.green{border-radius: 50%; width: 160px; height: 160px; background-color: green;}
+.blue{border-radius: 50%; width: 200px; height: 200px; background-color: blue;}
+.purple{border-radius: 50%; width: 240px; height: 240px; background-color: purple;}
+.black{border-radius: 50%; width: 280px; height: 280px; background-color: black;}
+
+.box24 {background-color: darkgray;}
+
+.circle-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.circle-container div {
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
