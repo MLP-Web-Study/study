@@ -1,0 +1,174 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vh;
+    background-color: white;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+}
+.square {
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+}
+
+.quad1 {
+    border: 10px solid grey;
+}
+
+.quad2 {
+    background-color: lightgrey;
+    border: 10px solid lightgrey;
+}
+
+.quad3 {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    border: 10px solid lightgrey;
+}
+
+.quad4 {
+    border: 10px solid grey;
+    background-color: grey;
+}
+
+
+
+.black{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 150px;
+    width: 300px;
+}
+
+.sky{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: skyblue;
+    height: 150px;
+    width: 300px;
+}
+
+.item{
+    height: 20px;
+    width: 50px;
+}
+
+.red_box {
+    background-color: red;
+}
+
+.orange_box{
+    background-color: orange;
+    height: 30px;
+}
+
+.yellow_box{
+    background-color: yellow;
+    height: 40px;
+}
+
+.green_box{
+    background-color: green;
+    height: 50px;
+}
+
+.blue_box {
+    background-color: blue;
+    height: 40px;
+}
+
+.purple_box {
+    background-color: purple;
+    height: 30px;
+}
+
+.black_box {
+    background-color: black;
+}
+
+
+
+.header {
+    background-color: coral;
+    height: 40px;
+    width: 290px;
+}
+
+.nav {
+    background-color: dodgerblue;
+    margin-top: 10px;
+    height: 20px;
+    width: 290px;
+}
+
+.mid {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.aside {
+    background-color: mediumaquamarine;
+    height: 150px;
+    width: 60px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    background-color: lightskyblue;
+    height: 150px;
+    width: 220px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 200px;
+}
+
+.figure {
+    margin-top: 20px;
+    background-color: goldenrod;
+    height: 30px;
+    width: 180px;
+}
+
+.p {
+    margin-top: 10px;
+    background-color: yellow;
+    height: 30px;
+    width: 180px;
+}
+
+.section {
+    background-color: navy;
+    margin-top: 5px;
+    height: 30px;
+    width: 200px;
+}
+
+.footer {
+    margin-top: 10px;
+    background-color: yellowgreen;
+    height: 60px;
+    width: 290px;
+}
