@@ -1,11 +1,9 @@
-* {
-  box-sizing: border-box;
-}
+* {box-sizing: border-box;}
 
 .back{
   display: flex;
   flex-wrap: wrap; /*부모 요소보다 자식이 클 때 조절*/
-  width: 800px; /*px 대신 vw -> 화면 크기 기준으로 하려고*/
+  width: 800px;
   height: 800px;
 }
 
@@ -18,19 +16,10 @@
 }
 
 .box13 {background-color: lightgray;}
-
 .box24 {background-color: rgb(134, 134, 134);}
 
-.box2top{
-  background-color: black;
-  width: 350px;
-  height: 180px;
-}
-.box2bottom{
-  background-color: rgb(155, 190, 226);
-  width: 350px;
-  height: 180px;
-}
+.box2top{background-color: black; width: 350px; height: 180px;}
+.box2bottom{ background-color: rgb(155, 190, 226); width: 350px; height: 180px;}
 
 .oblongred{width: 50px; height: 25px; background-color: red;}
 .oblongorange{width: 50px; height: 50px; background-color: orange;}
@@ -47,6 +36,17 @@
 .blue{position: absolute; border-radius: 50%; width: 200px; height: 200px; background-color: blue;}
 .purple{position: absolute; border-radius: 50%; width: 240px; height: 240px; background-color: purple;}
 .black{position: absolute; border-radius: 50%; width: 280px; height: 280px; background-color: black;}
+
+.salmonbox{width: 350px; height: 50px; margin: 5px; background-color: salmon;}
+.bluebox{width: 350px; height: 25px; margin: 5px; background-color: rgb(122, 122, 213);}
+.toumei{width: 350px; height: 200px; margin: 5px;}
+.pistachio{width: 70px; height: 200px; margin-right: 10px; background-color: rgb(132, 196, 166);}
+.skyblue{width: 270px; height: 200px; align-items: center;  justify-content: center; background-color: skyblue;}
+.skybox{width: 230px; height: 120px; align-items: center;  justify-content: center; margin-bottom: 10px; background-color: rgb(114, 153, 208);}
+.navy{width: 230px; height: 30px; background-color: navy;}
+.deepyellow{width: 200px; height: 30px; margin-top:20px; margin-bottom: 7px; background-color: rgb(208, 197, 76);}
+.yellowbox{width: 200px; height: 30px; background-color: rgb(255, 217, 0);}
+.greenyellow{width: 350px; height: 50px; margin: 5px; background-color: rgb(162, 203, 99);}
 
 .left {
   display: flex;
