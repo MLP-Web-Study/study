@@ -1,0 +1,226 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+/* 왼쪽 */
+.box1 {
+  flex: 1;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  height: 350px;
+  padding: 10px;
+}
+
+/* 제 2사분면 */
+.first {
+  background-color: gray;
+  flex-direction: column;
+}
+
+.reverseRainobow {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: black;
+}
+
+.rainbow {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  background-color: skyblue;
+}
+
+.element1 {
+  flex: 1;
+}
+
+.red {
+  background-color: red;
+  height: 30px;
+}
+
+.orange {
+  background-color: orange;
+  height: 40px;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 50px;
+}
+
+.green {
+  background-color: green;
+  height: 60px;
+}
+
+.blue {
+  background-color: blue;
+  height: 50px;
+}
+
+.indigo {
+  background-color: indigo;
+  height: 40px;
+}
+
+.black {
+  background-color: black;
+  height: 30px;
+}
+
+/* 제 3사분면 */
+.second {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex: 0.2;
+  background-color: coral;
+  margin-bottom: 10px;
+}
+
+.nav {
+  flex: 0.1;
+  background-color: royalblue;
+  margin-bottom: 10px;
+}
+
+.centerContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.aside {
+  flex: 1;
+  background-color: darkseagreen;
+  margin-right: 10px;
+}
+
+.main {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  background-color: skyblue;
+  padding: 20px;
+}
+
+.article {
+  flex: 3;
+  display: flex;
+  background-color: cornflowerblue;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.figure {
+  flex: 1;
+  background-color: goldenrod;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.p {
+  flex: 1;
+  background-color: gold;
+}
+
+.section {
+  flex: 1;
+  background-color: darkblue;
+}
+
+.footer {
+  flex: 0.2;
+  background-color: yellowgreen;
+  margin-top: 10px;
+}
+
+/* 오른쪽 */
+.box2 {
+  flex: 1;
+}
+
+/* 제 1사분면 */
+.third {
+  background-color: lightgray;
+  justify-content: center;
+  align-items: center;
+}
+
+.circularPattern {
+  width: 280px;
+  height: 280px;
+}
+
+.circle {
+  border-radius: 50%;
+  display: flex;
+}
+
+.circle1 {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.circle2 {
+  width: 85%;
+  height: 85%;
+  background-color: indigo;
+}
+
+.circle3 {
+  width: 85%;
+  height: 85%;
+  background-color: blue;
+}
+
+.circle4 {
+  width: 80%;
+  height: 80%;
+  background-color: green;
+}
+
+.circle5 {
+  width: 70%;
+  height: 70%;
+  background-color: yellow;
+}
+
+.circle6 {
+  width: 60%;
+  height: 60%;
+  background-color: orange;
+}
+
+.circle7 {
+  width: 60%;
+  height: 60%;
+  background-color: red;
+}
+
+/* 제 4사분면 */
+.fourth {
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondCircle {
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+}
