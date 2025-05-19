@@ -78,7 +78,7 @@
 }
 
 
-/* 제 2사분면 */
+/* 제 3사분면 */
 .row2 {
     background-color: rgb(205, 205, 205);
     width : 100%;
@@ -157,7 +157,7 @@
     margin: 5px 10px 10px;
 }
 
-/* 제 3사분면 */
+/* 제 2사분면 */
 .row3 {
 
     background-color: rgb(205, 205, 205);
