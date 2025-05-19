@@ -97,7 +97,39 @@
     background-color: black;
 }
 
+.circle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
 
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.black {
+    background-color: black;
+}
 
 .header {
     background-color: coral;
