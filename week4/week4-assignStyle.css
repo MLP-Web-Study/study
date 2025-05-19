@@ -13,54 +13,14 @@
     justify-content: center;
 }
 
+
+/* 제 1사분면 */
 .row1 {
     background-color: gray;
     width : 100%;
     height : 50%;
 }
-.row2 {
-    background-color: rgb(205, 205, 205);
-    width : 100%;
-    height : 50%;
 
-    display: flex;
-    flex-direction: column;
-}
-.row3 {
-
-    background-color: rgb(205, 205, 205);
-    width : 100%;
-    height : 50%;
-
-    display : flex;
-    justify-content: center;
-    align-items: center;
-    /* 원을 정중앙을 기준으로 하기 위함" */
-}   
-.row4 {
-    display : flex;
-    justify-content: center;
-    align-items: center;
-    /* 첫번째 원을 정중앙으로 오기 위함 */
-    /* 하지만 flex는 요소들을 겹칠 수 없기에 부모-자식관계로 인해 정중앙 정렬
-    을 해보았음 
-    하지만 부모-자식관계로 안하더라도 겹칠 수 있는 속성이 필요
-    position : absolute;
-    left : 50%;
-    top : 50%
-    정확한 위치를 지정함. 왼쪽,위쪽으로 50% 떨어진 곳에 위치지정됨.
-    but, 이렇게 하면 요소의 왼쪽 위 모서리가 중심에 위치하게 됨
-    그래서 
-    transform: translate(-50%, -50%);
-    자기 요소의 '중심'을 기준으로 이동
-    즉, 부모요소의 정중앙까지 이동하는데 '자기 중심이 그 정중앙에 오도록 조정'을 함.
-    */
-    background-color: gray;
-    width : 100%;
-    height : 50%;
-
-    align-items: center;
-}
 .row5{
     background-color: black;
     width : 100%;
@@ -70,6 +30,7 @@
     flex-direction: row;
     align-items: flex-start;
 }
+
 .row6{
     background-color: skyblue;
     width : 100%;
@@ -79,6 +40,54 @@
     flex-direction: row;
     align-items: flex-end;
 }
+
+.icon1{
+    background-color: red;
+    width : 15%;
+    height : 20px;
+}
+.icon2{
+    background-color: orange;
+    width : 14%;
+    height : 30px;
+}
+.icon3{
+    background-color: yellow;
+    width : 14%;
+    height : 40px;
+}
+.icon4{
+    background-color: green;
+    width : 14%;
+    height : 50px;
+}
+.icon5{
+    background-color: blue;
+    width : 14%;
+    height : 40px;
+}
+.icon6{
+    background-color: violet;
+    width : 14%;
+    height : 30px;
+}
+.icon7{
+    background-color: black;
+    width : 15%;
+    height : 20px;
+}
+
+
+/* 제 2사분면 */
+.row2 {
+    background-color: rgb(205, 205, 205);
+    width : 100%;
+    height : 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+
 .row7{
     background-color: rgb(198, 139, 139);
     height : 10%;
@@ -147,42 +156,20 @@
     height : 20%;
     margin: 5px 10px 10px;
 }
-/* 차트 컬러 */
-.icon1{
-    background-color: red;
-    width : 15%;
-    height : 20px;
-}
-.icon2{
-    background-color: orange;
-    width : 14%;
-    height : 30px;
-}
-.icon3{
-    background-color: yellow;
-    width : 14%;
-    height : 40px;
-}
-.icon4{
-    background-color: green;
-    width : 14%;
-    height : 50px;
-}
-.icon5{
-    background-color: blue;
-    width : 14%;
-    height : 40px;
-}
-.icon6{
-    background-color: violet;
-    width : 14%;
-    height : 30px;
-}
-.icon7{
-    background-color: black;
-    width : 15%;
-    height : 20px;
-}
+
+/* 제 3사분면 */
+.row3 {
+
+    background-color: rgb(205, 205, 205);
+    width : 100%;
+    height : 50%;
+
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    /* 원을 정중앙을 기준으로 하기 위함" */
+}   
+
 /* 원컬러러 */
 .radius1{
     border-radius: 50%;
@@ -227,6 +214,33 @@
     height : 50%;
     background-color : red;
 }
+
+/* 제 4사분면 */
+.row4 {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    /* 첫번째 원을 정중앙으로 오기 위함 */
+    /* 하지만 flex는 요소들을 겹칠 수 없기에 부모-자식관계로 인해 정중앙 정렬
+    을 해보았음 
+    하지만 부모-자식관계로 안하더라도 겹칠 수 있는 속성이 필요
+    position : absolute;
+    left : 50%;
+    top : 50%
+    정확한 위치를 지정함. 왼쪽,위쪽으로 50% 떨어진 곳에 위치지정됨.
+    but, 이렇게 하면 요소의 왼쪽 위 모서리가 중심에 위치하게 됨
+    그래서 
+    transform: translate(-50%, -50%);
+    자기 요소의 '중심'을 기준으로 이동
+    즉, 부모요소의 정중앙까지 이동하는데 '자기 중심이 그 정중앙에 오도록 조정'을 함.
+    */
+    background-color: gray;
+    width : 100%;
+    height : 50%;
+
+    align-items: center;
+}
+
 .radius1-2{
     border-radius: 50%;
     width : 80%;
