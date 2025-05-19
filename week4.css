@@ -1,8 +1,6 @@
-* {box-sizing: border-box;}
-
 .back{
   display: flex;
-  flex-wrap: wrap; /*부모 요소보다 자식이 클 때 조절*/
+  flex-wrap: wrap; /*부모 요소보다 자식이 클 때 조절, 폭이 넘치면 자동 줄바꿈*/
   width: 800px;
   height: 800px;
 }
@@ -51,8 +49,7 @@
 .left {
   display: flex;
   flex-direction: column; /*밑으로 정렬*/
-  justify-content: space-between; /*콘텐츠 항목 사이와 주위 공간 분배, 사이에 균일한 간격 만들어줌*/
-  position: relative; 
+  justify-content: space-between; /*콘텐츠 항목 사이와 주위 공간 분배, 사이에 균일한 간격 만들어줌*/ 
   padding-bottom: 300px;
   padding-right: 300px;
 }
@@ -61,7 +58,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative; /*상대위치, 지금 위치에서 공간 주기, 자식들이 middle를 기준으로 움직여야해서 부모에 이걸 넣어둠 */
 }
 
 .col{
