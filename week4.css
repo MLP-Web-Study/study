@@ -5,39 +5,42 @@
 .back{
   display: flex;
   flex-wrap: wrap;
-  width: 100vw; /*px 대신 vw -> 화면 크기 기준으로 하려고*/
-  height: 100vh;
+  width: 1200px; /*px 대신 vw -> 화면 크기 기준으로 하려고*/
+  height: 1200px;
 }
 
 .box{
-  width: 50%;
-  height: 50%;
+  width: 600px;
+  height: 600px;
   display: flex;
   align-items: center;  /*수직 방향 정렬, 자식 요소들을 세로 방향 중앙*/
   justify-content: center; /*수평 방향 정렬, 자식 요소들을 가로 방향 중앙*/
 }
 
 .box13 {background-color: lightgray;}
-.red {border-radius: 50%; width: 40px;  height: 40px; background-color: red;}
-.orange {border-radius: 50%; width: 80px;  height: 80px; background-color: orange;}
-.yellow {border-radius: 50%; width: 120px; height: 120px; background-color: yellow;}
-.green{border-radius: 50%; width: 160px; height: 160px; background-color: green;}
-.blue{border-radius: 50%; width: 200px; height: 200px; background-color: blue;}
-.purple{border-radius: 50%; width: 240px; height: 240px; background-color: purple;}
-.black{border-radius: 50%; width: 280px; height: 280px; background-color: black;}
 
 .box24 {background-color: darkgray;}
 
-.circle-container {
-  position: relative;
-  width: 300px;
-  height: 300px;
+.red {position: absolute; border-radius: 50%; width: 40px;  height: 40px; background-color: red;}
+.orange {position: absolute; border-radius: 50%; width: 80px;  height: 80px; background-color: orange;}
+.yellow {position: absolute; border-radius: 50%; width: 120px; height: 120px; background-color: yellow;}
+.green{position: absolute; border-radius: 50%; width: 160px; height: 160px; background-color: green;}
+.blue{position: absolute; border-radius: 50%; width: 200px; height: 200px; background-color: blue;}
+.purple{position: absolute; border-radius: 50%; width: 240px; height: 240px; background-color: purple;}
+.black{position: absolute; border-radius: 50%; width: 280px; height: 280px; background-color: black;}
+
+.left {
+  display: flex;
+  flex-direction: column; /*밑으로 정렬*/
+  justify-content: space-between; /*콘텐츠 항목 사이와 주위 공간 분배, 사이에 균일한 간격 만들어줌*/
+  position: relative; 
+  padding-bottom: 500px;
+  padding-right: 500px;
 }
 
-.circle-container div {
-  position: absolute;
-  border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} 
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; /*상대위치, 지금 위치에서 공간 주기, 자식들이 middle를 기준으로 움직여야해서 부모에 이걸 넣어둠 */
+}
