@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color: #2b5ca9;
+    color: white;
+    text-align: center;
+    border: 5px solid #4a90e2;
+    border-radius: 8px;
+}
+
+body {
+    background-color: #f7f9fb;
+    color: black;
+}
+
+.main {
+    background-color: white;
+    border-radius: 8px;
+    margin: 30px;
+    padding: 20px;
+    border-top: 5px solid #2b5ca9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /* 부드럽게 경계를 만드는 방법이라고 gpt씨의 도움을 받았습니다 */
+}
+
+.profile {
+    background-color: #eaf4ff;
+    padding: 15px;
+    border-left: 5px solid #4a90e2;
+    border-radius: 8px;
+}
+
+.info{
+    padding: 15px;
+    background-color: #eaf4ff;
+    color: #346ca0;
+    border-left: 5px solid #4a90e2;
+    border-radius: 8px;
+}
+
+.lists{
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    border-right: 5px solid #4a90e2;
+}
+
+h2{
+    margin-top: 0;
+    color: #2b5ca9;
+}
