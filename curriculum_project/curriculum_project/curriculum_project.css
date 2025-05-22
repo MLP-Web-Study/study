@@ -1,0 +1,182 @@
+.text1{
+    font-size: 100px;
+    color: white;
+    text-align: start;
+    margin-left: 25px;
+}
+
+.icon1{
+    background-image: url(https://cdn.discordapp.com/attachments/1270683363770109963/1374770659456057374/0739f84e7f16d75731dde373dd9f0100.png?ex=682f4273&is=682df0f3&hm=0913aa8da5184acb407d7e37ca6cd5a3ff16c7c21875a3148a2e2ba60e62f8b4&);
+    margin-top: -500px;
+    margin-left: -10px;
+    background-size: cover; /* 화면에 맞게 이미지를 설정정 하는법을 몰라서 chat gpt한테 물어봤습니다 */
+    width: 1700px;
+    height: 500px;
+}
+
+.text2{
+    font-size: 100px;
+    color: #A67C6B;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.text3{
+    color: #A67C6B;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: 100px;
+
+}
+
+.icon2{
+    border: 1px solid #A67C6B;
+    background-color: #A67C6B;
+    width: 50px;
+    height: 640px;
+    margin-left: 1400px;
+    margin-top: -648px;
+}
+
+.icon3{
+    border: 1px solid #A67C6B;
+    background-color: #A67C6B;
+    width: 50px;
+    height: 640px;
+    margin-left: 1500px;
+    margin-top: -640px;
+}
+
+.text4{
+    font-size: 100px;
+    font-family: Georgia; /*글꼴을 뭘로 해야할지 몰라서 chat gpt한테 물어보고 제일 이쁜 글꼴을 찾았습니다 :) */
+    margin-left: 190px;
+    margin-top: 300px;
+    color: rgb(51, 51, 51);
+}
+
+.icon4{
+    border-radius: 50%;
+    border-color: 5px #A67C6B;
+    background-color: #A67C6B;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+}
+.icon4-1{
+    border-radius: 50%;
+    border-color: 5px peachpuff;
+    background-color: peachpuff;
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    margin-top: -300px;
+}
+
+.text5{
+    font-size: 50px;
+    font-family: georgia;
+    margin-top: -270px;
+    margin-left: 600px;
+}
+
+.icon5{
+    background-image: url(https://cdn.discordapp.com/attachments/1270683363770109963/1374793216519307304/KUpPmwJwCJLAow1p-9YtTa_yys5k2cEU8b9Bk5SrLJAiTBj4g2fC3OULFTDvPPKZFUSzUcgcGogByjLhvLxyrw.png?ex=682f5775&is=682e05f5&hm=f74ac52e6e346df7b4e0dd2cdc1d66b92b0908b00c06bfb4aa5a689550c77fa9&);
+    background-size: cover;
+    margin-left: 800px;
+    margin-top: -400px;
+    width: 700px;
+    height: 500px;
+}
+
+.text6{
+    font-size: 100px;
+    font-family: Georgia;
+    margin-left: 100px;
+}
+
+.icon6{
+    background-image: url(https://i.namu.wiki/i/CJQlrL9uCkZ_U4-BpGyBX82C3KRKHtjgGfV269RL3fcvJLKZbE0c-mCcgTgpbB0cpLa0f3m3ieVFVy3amE2KSw.webp);
+    background-size: cover;
+    width: 500px;
+    height: 700px;
+    margin-top: -100px;
+    margin-left: 0px;
+}
+
+.text7{
+    font-size: 50px;
+    margin-left: 550px;
+    margin-top: -700px
+}
+.text8{
+    font-size: 20px;
+    margin-left: 550px;
+}
+
+.text9{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 550px;
+}
+
+.text9-1{
+    font-size: 50px;
+    margin-top: -50px;
+    margin-left: 650px;
+}
+.text10{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 550px;
+}
+
+.text11{
+    font-size: 100px;
+    font-family: georgia;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.text12{
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+
+.icon8{
+    background-image: url(https://yt3.googleusercontent.com/XpCp_onygCOuOycjd_iGPcHDBuFUFEXv-hJp7SP0VLUPs0-J3bvYo9fGCaSGf7lit26DvQOJiA=s900-c-k-c0x00ffffff-no-rj);
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+    margin-left: 600px;
+    margin-top: -400px;
+}
+
+.icon9{
+    background-image: url(https://i.ytimg.com/vi/YsqAkgk2XGo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCE3K8Y76E1v36Wu6ouv04TQEC9OQ);
+    background-size: contain;
+    background-size: cover;
+    width: 505px;
+    height: 250px;
+    margin-left: 900px;
+    margin-top: -300px;
+}
+
+.icon10{
+    background-image: url(https://i.namu.wiki/i/NqVpHKB1tiDXsmiTiitEHjEUs46UJGBkpz5QApbdEc2rdLg-_Bc6JOW6QxQXsm4QXzo7QfkEDh-uhwNZDKHj_Q.webp);
+    background-size: contain;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-left: 500px;
+}
+
+.icon11{
+    background-image: url(https://cdn.discordapp.com/attachments/1270683363770109963/1375037709537640638/2025-04-23_133644.png?ex=68303b28&is=682ee9a8&hm=f3a89aa942950f27ad111df96e5600a68fe2228ab144d5b6cd615dca8ca005ae&);
+    background-size: contain;
+    background-size: cover;
+    width: 700px;
+    height: 500px;
+    margin-left: 500px;
+}
