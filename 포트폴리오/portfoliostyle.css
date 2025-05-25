@@ -65,6 +65,9 @@ img{
 h2{
     margin-top: 0;
     color: #2b5ca9;
+    border-bottom: 2px solid #ccc; 
+    padding-bottom: 8px;
+    margin-bottom: 16px;
 }
 footer{
     justify-content: center;
