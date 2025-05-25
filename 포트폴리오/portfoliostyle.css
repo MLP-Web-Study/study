@@ -22,6 +22,9 @@ main{
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 /*기본정보*/
+img{
+    width: 50%;
+}
 .profile{
     flex-direction: row;
     display: flex;
@@ -62,4 +65,22 @@ main{
 h2{
     margin-top: 0;
     color: #2b5ca9;
+}
+footer{
+    justify-content: center;
+    display: flex;
+}
+/* 공통 박스 호버 효과 */
+.introduce,
+.info,
+.list {
+    transition: transform 0.3s ease;
+}
+
+.introduce:hover,
+.info:hover,
+.list:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    z-index: 1;
 }
