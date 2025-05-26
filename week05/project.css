@@ -1,0 +1,104 @@
+body {
+    background-image: url('./project_img/IMG_5682.jpg');
+    background-size: cover;
+    background-position: center;
+    /* padding:20px; */
+}
+header {
+    background-color: rgba(20, 73, 98, 0.404);
+    /* background-color: #62abff88; */
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    margin: 50px;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.myImage img {
+    width: 430px;
+    border-radius: 10px;
+}
+
+.selfIntrodution {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.selftitle, .selfexplantion {
+    border-radius: 10px;
+    line-height: 1.8;
+    /* background-color: rgba(94, 204, 255, 0.527); */
+    background-color: #aad2ff70;
+    font-weight: bold;
+}
+
+.selftitle {
+    color: rgb(17, 111, 183);
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    font-size: 1.5em;
+}
+
+.selfexplantion {
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.projectList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+    margin: 30px;
+}
+
+.projectList img {
+    width: 300px;
+}
+
+.week1Project {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+
+footer {
+    color:white;
+    background-color: rgba(20, 73, 98, 0.404);
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+}
