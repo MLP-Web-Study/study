@@ -1,9 +1,30 @@
+html {
+    scroll-behavior: smooth;
+    color: white;
+    background-color: black;
+}
+
+a{
+  text-decoration: none; /* 밑줄 제거하기 */
+  color: inherit; /* 부모 요소? 색 따라가게 하기 (클릭했을 때 색변화X) */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
 #background {
     display: flex;
     flex-direction: column;
-    background-color: black;
     height: 100%;
     width: 100%;
+}
+
+nav {
+    position: fixed; /* 화면에 고정 */
+    top: 0; /* 위에서 0px */
+    left: 0; /* 왼쪽에서 0px */
+    width: 100%; /* 전체 너비 차지 */
+    background-color: black;
+    z-index: 1000; /* 다른 요소들보다 위에 보이게하기 (잘모름) */
 }
 
 .navContainer{
@@ -15,4 +36,45 @@
     padding-left: 5px;
     width: 100px;
     height: 100px;
+}
+
+.content{
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.headerContainer{
+    margin-top: 200px;
+    margin-left: 100px;
+    font-size: 50px;
+}
+
+.mainContainer{
+    margin-left: 100px;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.introduce{
+    display: flex;
+}
+
+.introBox1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    background-color: #2f2f3a;
+    border-radius: 24px; /* 모서리? 깎는거 */
+    
+}
+
+.introBox2{
+    flex: 1;
+    background-color: #1e1f23;
+    border-radius: 24px;
 }
