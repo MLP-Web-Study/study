@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    height: 120vh;
+}
+
+/*section, aside 목차 이동 폭 줄이기 */
+/* 헤더 높이보다 살짝 크게 */
+section,
+aside {
+    scroll-margin-top: 70px;
+}
+
+/*===============================================*/
+/* 헤더 */
+/*===============================================*/
+header {
+    width: 100%;
+    position: fixed;
+    /* 헤더 고정 */
+    top: 0;
+    z-index: 100;
+    /* 다른 요소에 가려지지 않게 하기 위함 */
+
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+/* 헤더 내부 컨테이너 */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* 제목 스타일 */
+.site-title {
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+}
+
+.site-title a {
+    color: white;
+    text-decoration: none;
+    /* 밑줄 방지지 */
+}
+
+.site-title a:hover {
+    text-decoration: none;
+    /* 밑줄 방지 */
+}
+
+/* 메뉴 스타일 */
+.ul-menu {
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.ul-menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.ul-menu li a:hover {
+    color: lightgray;
+    background-color: rgb(141, 140, 140);
+}
+
+
+
+/*===============================================*/
+/* 풍경 CSS (사진) */
+/*===============================================*/
+.background_sight_photo {
+    width: 100%;
+    height: 100vh;
+    /* 화면 전체 높이 */
+    background-image: url('./background.jpg');
+    /* 이미지 파일 경로 맞게 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* 반복 없음 */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 글을 쓸 때 정중앙에 설정 */
+}
+
+
+/*===============================================*/
+/* 풍경 CSS (영상) */
+/*===============================================*/
+.background_sight_video {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* 영상 위치, 비율 유지하면서 꽉 채움 */
+}
+
+.background_text {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /*영상보다 글씨가 위로 정중앙에 오도록 */
+}
+
+.background_text h2 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+/*===============================================*/
+/* 상단 행 */
+/*===============================================*/
+.portfolio_background{
+    background-color: #F5E2C2;
+}
+
+.portfolio_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.Introduce_container {
+    width: 50%;
+
+    margin: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #C9E6D1;
+
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.Information_container {
+    width: 50%;
+
+    margin: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #C9E6D1;
+    font-weight: bold;
+}
+
+/* 내 정보의 연락처,메일,Github CSS */
+.contactClass {
+    padding: 2px 2px;
+    background-color: #2890a7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/* 학력CSS */
+.ability_container{
+    width: 60%;
+
+    margin: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #C9E6D1;
+    font-weight: bold;
+}
+
+/* 기술 및 역량 CSS */
+.technology_container{
+    width: 60%;
+
+    margin: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #C9E6D1;
+    font-weight: bold;
+}
+
+/* 포트폴리오 CSS */
+.portfolio_container{
+    width: 60%;
+
+    margin: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #C9E6D1;
+    font-weight: bold;
+}
+
+
+/* Footer쪽 CSS */
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    height: 70px;
+    background-color: #B7DAE4;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.footer_box {
+    padding-left: 10px;
+    color: black;
+}
+
+
+
+
+
+/* 소제목들 CSS */
+.spanClass {
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: rgb(108, 240, 105);
+    box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
