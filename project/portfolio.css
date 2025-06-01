@@ -10,6 +10,10 @@ a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+h3 {
+    font-size: 30px;
+}
+
 
 #background {
     display: flex;
@@ -23,13 +27,15 @@ nav {
     top: 0; /* 위에서 0px */
     left: 0; /* 왼쪽에서 0px */
     width: 100%; /* 전체 너비 차지 */
-    background-color: black;
-    z-index: 1000; /* 다른 요소들보다 위에 보이게하기 (잘모름) */
+    background-color: (25, 25, 63, 0.1);
+    /* z-index: 1000; 다른 요소들보다 위에 보이게하기 (잘모름) */
+    
 }
 
 .navContainer{
     display: flex;
     flex-direction: row;
+    border-radius: 10px;
 }
 
 .icon{
@@ -47,7 +53,7 @@ nav {
 }
 
 .headerContainer{
-    margin-top: 200px;
+    margin-top: 300px;
     margin-left: 100px;
     font-size: 50px;
 }
@@ -74,7 +80,72 @@ nav {
 }
 
 .introBox2{
-    flex: 1;
-    background-color: #1e1f23;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    padding-left: 20px;
+    flex: 2;
+    background-color: #1d1e23;
     border-radius: 24px;
 }
+
+.introBox2_1{
+    background-color: #214032;
+    border-radius: 24px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.introBox2_2{
+    display: flex;
+    flex-direction: column;
+    background-color: #214032;
+    border-radius: 24px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.introBox2_22{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact{
+    margin-top: 500px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.discord{
+    position: relative;
+    display: inline-block;
+}
+
+.movingtext{
+    position: absolute;
+    top: 0;
+    left: 110%; /* 이미지 오른쪽 옆에 위치 */
+    background-color: #333;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.discord:hover .movingtext{
+    opacity: 1;
+}
+
