@@ -1,0 +1,33 @@
+* {
+    color: white;
+}
+body {
+    display: flex;
+    background-color: rgb(45,45,45);
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    justify-content: space-between;
+}
+.start {
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 35px;
+}
+
+.info {
+    margin-left: 80px;
+    font-size: 10px;
+}
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+.bottom {
+    margin-right: 10px;
+    font-size: 10px;
+}
+.next {
+    text-decoration: none;
+}
+/*text-decoration: underline은 <a>사용시 나타나는 밑줄을 없앤다다*/

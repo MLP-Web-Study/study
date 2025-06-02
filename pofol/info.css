@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    justify-content: space-between;
+    background-color: rgb(250,250,250);
+}
+.Name {
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+.Face {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.Info {
+    font-size: 10px;
+    margin-left: 40px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    margin-left: 30px;
+    flex-grow: 1;
+    margin-top: 80px;
+    flex-direction: column;
+}
+.another {
+    display: flex;
+    margin-bottom: 30px;  
+}
+.line {
+    background-color: black;
+    height: 2px;
+    width: auto;
+}
+.school {
+    flex: 1;
+}
+.skill {
+    flex: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.qualifications {
+    flex: 1;
+    margin-right: 20%;
+}
+.PortfolioBox{
+    display: flex;
+}
+.port1 {
+    flex: 1;
+    margin-right: 5%;
+}
+.port2 {
+    flex: 1;
+}
+.left {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 10px;
+}
+.back {
+    text-decoration: none;
+}
+.Bottom {
+    margin-right: 10px;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.next {
+    text-decoration: none;
+}
