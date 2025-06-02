@@ -1,0 +1,211 @@
+body{
+    background-color: rgb(9, 9, 9);
+}
+.navbar {
+    background-color: white; 
+    position: fixed;
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .logo {
+    margin-right: auto;
+}
+.navbar .menu {
+    display: flex;
+    margin-right: auto;
+    gap: 50px; /*요소간 간격을 띄우는 역할*/
+}
+.navbar .menu a {
+    text-decoration: none; /*링크 들어간 후 밑에 줄 뜨는거 없애줌*/
+    color: black;
+    font-weight: bold;
+}
+.home{
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 7%;
+    height: 600px;
+}
+.home1{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.p1{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.p2{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: none;
+}
+.introduce{
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 7%;
+    height: 600px;
+    margin-top: 10px;
+}
+.p3{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.p4{
+    color: #9fb2de;
+    font-size: 30px;
+    font-weight: bold;
+}
+.p5{
+    color: #9fb2de;
+    font-size: 30px;
+    font-weight: bold;
+}
+.hak{
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 7%;
+    height: 600px;
+    margin-top: 10px;
+}
+.hak1{
+    background-color: black;
+    align-items: center;
+    height: 190px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+}
+.C1{
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+}
+.hr1{
+    flex: auto;
+    border: dotted rgb(57, 56, 56);
+    width: 500px;
+    height: 0.01px;
+    border-bottom: 0px;
+
+}
+.C2{
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+
+}
+.hr2{
+    flex: auto;
+    border: dotted rgb(255, 255, 255);
+    width: 500px;
+    height: 0.01px;
+    border-bottom: 0px;
+}
+.C3{
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+    text-align: center;
+}
+.hak2{
+    background-color: black;
+    align-items: center;
+    height: 190px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    gap: 33%;
+}
+.hak3{
+    text-align: center;
+    width: 33%;
+}
+.p6{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.Tel{
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    margin-top: 10px;
+}
+.Insta{
+    background: linear-gradient(45deg, #ff7b02, #f90076, #aa1ade);
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Git{
+    background-color: #000000;
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Call{
+    background: green;
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.C4{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+}
+.p7{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.footer{
+    background-color: #1c1c1c;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p8{
+    color: #797979;
+
+}
